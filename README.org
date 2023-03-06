@@ -62,14 +62,32 @@ https://github.com/ThonyPrice/lunch-and-learn-window-managers
 In a terminal, run:
 
 #+BEGIN_SRC shell
-curl https://github.com/ThonyPrice/lunch-and-learn-window-managers/scripts/install.sh -o /tmp |
+curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-managers/main/scripts/install.sh | /bin/bash
 #+END_SRC
+
+#+RESULTS:
+: Hello World!
 
 This includes:
 - Window Manager, [[https://github.com/koekeishiya/yabai][yabai]]
 - Hotkey Daemon, [[https://github.com/koekeishiya/skhd][shkd]]
 - A basic config for both to get started (more on those later)
 
-** Start
+** Start yabai
 
-- ...
+#+BEGIN_SRC sh
+brew services start yabai
+#+END_SRC
+
+[[./img/grant-yabai-access.png]]
+
+/Running it the first time, you will see a prompt to allow yabai accessibility permissions. Open the lock, and check the box next to yabai to grant permission./
+** Start skhd
+
+#+BEGIN_SRC shell
+brew services start shkd
+#+END_SRC
+
+[[./img/grant-shkd-access.png]]
+
+/Running it the first time, you will see a prompt to shkd accessibility API permissions. Open the lock, and check the box next to shkd to grant permission./
