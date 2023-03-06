@@ -1,0 +1,75 @@
+* Lunch and Learn
+
+Today - *Window Managers 101*
+
+[[./img/tiling-manager.gif]]
+
+* Preparations
+
+- Grab your lunch
+- Bring your laptop (if you want to try install a tiling window manager)
+- Recording is on
+- Sign up to present on Lunch and Learn - Reach out to Erik
+
+* Agenda
+
+- Background - Why this Lunch and Learn?
+- What are Window Managers?
+- Why Tiling Window Managers Boost my Productivity
+- How to Get Started With a Tiling WM
+
+* Background - Why this Lunch and Learn?
+- ...
+* What is a Window Manager?
+
+- A window manager is a program that set the placement of windows within a windowing system
+- In OSX:
+  - Window Manager :: X11
+  - Display Manager :: Aqua
+
+* Window Manager Flavours
+
+Each window manager falls into a category, one of...
+
+** Floating
+
+- A floating window manager place windows on top of one another
+
+  [[./img/stacking-manager.png]]
+
+** Tiling
+
+- A tiling window manager ensure 100% of the screen real estate is used
+
+[[./img/tiling-manager.jpg]]
+
+* Why Tiling Window Managers Boost my Productivity
+
+- Maximize screen utlization - Always use all of the screen
+- Simple keybindings - Map shortcuts to program/window actions
+- Keyboard driven - Never reach for the mouse again =D
+
+* How to Get Started With a Tiling WM
+
+This is a code-along part! Grab your laptop if you want to try it out
+
+The presentation, including all of the commands, are available at
+
+https://github.com/ThonyPrice/lunch-and-learn-window-managers
+
+** Install Everything
+
+In a terminal, run:
+
+#+BEGIN_SRC shell
+curl https://github.com/ThonyPrice/lunch-and-learn-window-managers/scripts/install.sh -o /tmp |
+#+END_SRC
+
+This includes:
+- Window Manager, [[https://github.com/koekeishiya/yabai][yabai]]
+- Hotkey Daemon, [[https://github.com/koekeishiya/skhd][shkd]]
+- A basic config for both to get started (more on those later)
+
+** Start
+
+- ...
