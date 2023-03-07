@@ -110,6 +110,12 @@ vim ~/.yabairc
 vim ~/.shkd
 #+END_SRC
 
+** Workspaces
+
+Bind shortcuts to switch spaces
+
+[[./img/spaces-settings.png]]
+
 ** Disabling
 
 This was not for you? That's ok 😌
@@ -128,4 +134,4 @@ brew remove yabai skhd
 
 - If you have any questions - Shoot 🔫
 - If you are interested in more unix customizations,
-  check out [[https://www.reddit.com/r/unixp*rn/][r/unixporn]]
+  check out [[https://www.reddit.com/r/unixporn/][r/unixp*rn]]
