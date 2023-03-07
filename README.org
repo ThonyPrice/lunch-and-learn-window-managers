@@ -78,7 +78,7 @@ curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-manager
 
 This includes:
 - A Window Manager, [[https://github.com/koekeishiya/yabai][yabai]]
-- A Hotkey Daemon, [[https://github.com/koekeishiya/skhd][shkd]]
+- A Hotkey Daemon, [[https://github.com/koekeishiya/skhd][skhd]]
 - A basic config for both to get started (more on those later)
 
 ** Start yabai
@@ -90,10 +90,10 @@ brew services start yabai
 [[./img/grant-yabai-access.png]]
 
 /Running it the first time, you will see a prompt to allow yabai accessibility permissions. Open the lock, and check the box next to yabai to grant permission./
-** Start shkd
+** Start skhd
 
 #+BEGIN_SRC shell
-brew services start shkd
+brew services start skhd
 #+END_SRC
 
 [[./img/grant-shkd-access.png]]
@@ -107,7 +107,7 @@ vim ~/.yabairc
 #+END_SRC
 
 #+BEGIN_SRC conf
-vim ~/.shkd
+vim ~/.skhdrc
 #+END_SRC
 
 ** Workspaces
@@ -128,6 +128,11 @@ brew services stop yabai skhd
 brew uninstall yabai skhd
 brew remove yabai skhd
 #+END_SRC
+
+#+BEGIN_SRC sh
+rm ~/.yabairc ~/.skhdrc
+#+END_SRC
+
 * Closing Words
 
 /Thank you/ for listening 🙏

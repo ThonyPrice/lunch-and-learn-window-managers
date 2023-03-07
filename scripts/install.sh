@@ -7,5 +7,5 @@ echo "Installing shkd..."
 brew install koekeishiya/formulae/skhd
 
 echo "Adding Configs..."
-curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-managers/main/config/.yabairc > ~/.yabairc
-curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-managers/main/config/.shkdrc > ~/.shkdrc
+curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-managers/main/configs/.yabairc > ~/.yabairc
+curl https://raw.githubusercontent.com/ThonyPrice/lunch-and-learn-window-managers/main/configs/.skhdrc > ~/.skhdrc
