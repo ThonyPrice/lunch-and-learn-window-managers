@@ -1,8 +1,8 @@
 * Lunch and Learn
 
-Today - *Window Managers 101*
+    Today - *Window Managers 101*
 
-[[./img/tiling-manager.gif]]
+    [[./img/tiling-manager.gif]]
 
 * Before we Start
 
