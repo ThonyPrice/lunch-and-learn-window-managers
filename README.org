@@ -84,7 +84,7 @@ This includes:
 ** Start yabai
 
 #+BEGIN_SRC sh
-brew services start yabai
+yabai --start-service
 #+END_SRC
 
 [[./img/grant-yabai-access.png]]
@@ -93,7 +93,7 @@ brew services start yabai
 ** Start skhd
 
 #+BEGIN_SRC shell
-brew services start skhd
+skhd --start-service
 #+END_SRC
 
 [[./img/grant-shkd-access.png]]

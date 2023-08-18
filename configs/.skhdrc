@@ -5,7 +5,7 @@ shift + cmd - m : /Applications/Slack.app/Contents/MacOS/Slack ~
 # open page in browser
 shift + cmd - b : open -a "Google Chrome" https://aim.arkkapital.com
 # open terminal and run proxy to staging
-shift + cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
+shift + cmd - p : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
 # focus window
 alt - h : yabai -m window --focus west
