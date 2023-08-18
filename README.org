@@ -121,7 +121,8 @@ Bind shortcuts to switch spaces
 This was not for you? That's ok 😌
 
 #+BEGIN_SRC sh
-brew services stop yabai skhd
+yabai --stop-service
+skhd --stop-service
 #+END_SRC
 
 #+BEGIN_SRC sh
